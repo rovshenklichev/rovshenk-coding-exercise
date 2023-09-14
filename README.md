@@ -1,6 +1,6 @@
 
 <h1 align="center"><b>rovshenk-coding-exercise</b></h1>
-<h2 align="center">Hi 👋, rovshenk-coding-exercise</h2>
+<h2 align="center">Hi 👋, Welcome to rovshenk-coding-exercise</h2>
 
 <br>
 <h2 align="left"><b>Languages and Tools:</b></h2>
