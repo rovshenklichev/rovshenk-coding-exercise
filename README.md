@@ -1,21 +1,7 @@
-
-<h1 align="center"><b>rovshenk-coding-exercise</b></h1>
-<h2 align="center">Hi 👋, Welcome to rovshenk-coding-exercise</h2>
-
-<br>
-<h2 align="left"><b>Languages and Tools:</b></h2>
-<p align="left"> <a href="https://mochajs.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="40" height="40"/> </a> &ensp; <a href="https://webdriver.io" target="_blank" rel="noreferrer"> <img src="https://i.ibb.co/Ldy6jtx/webdriverio-1-2.jpg" alt="webdriverio" width=40 height=40 /> </a> &ensp; <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://i.ibb.co/nMRVktJ/typescript-1-4.jpg" alt="typescript" style="max-width: 20% height=20%;"/> </a> </p>
-
-
+<h1 align="center">Rovshen - Automation Engineer Coding Exercise</h1>
+<h2><b>This README includes all the information on how to run test scripts.</b></h2>
 
 <br><br>
-<h3>************************ Steps to get in local ************************</h3> 
-
-1. Clone the repo
-2. Once repo cloned, hit npm install (to install the package.json dependecies)
-
-
-<br>
 <h3>************************ Way to run spec ************************</h3>
 
 1. Hit npx wdio run ./wdio.conf.ts (to run all the spec files)
@@ -36,6 +22,10 @@
 
 
 <br><br>
+<h3>************************ Steps to get in local ************************</h3>
+
+1. Clone the repo
+2. Once repo cloned, hit npm install (to install the package.json dependecies)
 
 
 <h3><b>************************* Enjoy 😃😃😃 ************************</b></h3>
