@@ -7,7 +7,7 @@
   <a href="https://webdriver.io" target="_blank" rel="noreferrer">
     <img src="https://i.ibb.co/Ldy6jtx/webdriverio-1-2.jpg" alt="webdriverio" width="40" height="40" />
   </a> &ensp;
-  <span style="font-size: 48px; font-weight: bold; color: yellow;">JavaScript</span>
+  <span style="font-size: 48px !important; font-weight: bold !important; color: yellow !important;">JavaScript</span>
 </p>
 <br><br>
 
