@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Rovshen - Automation Engineer Coding Exercise</title>
-</head>
-
 <body>
 
   <h1 align="center">Rovshen - Automation Engineer Coding Exercise</h1>
