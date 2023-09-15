@@ -8,7 +8,7 @@
     <img src="https://i.ibb.co/Ldy6jtx/webdriverio-1-2.jpg" alt="webdriverio" width="40" height="40" />
   </a> &ensp;
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://your-image-url-here.jpg" alt="JavaScript" width="40" height="40" />
+    <span style="font-size: 40px;">JavaScript</span>
   </a>
 </p>
 <br><br>
