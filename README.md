@@ -1,14 +1,13 @@
 <h1 align="center">Rovshen - Automation Engineer Coding Exercise</h1>
 <h2 align="left"><b>Languages and Tools:</b></h2>
-<p align="left"> <a href="https://mochajs.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="40" height="40"/> </a> &ensp; <a href="https://webdriver.io" target="_blank" rel="noreferrer"> <img src="https://i.ibb.co/Ldy6jtx/webdriverio-1-2.jpg" alt="webdriverio" width=40 height=40 /> </a> &ensp; <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://i.ibb.co/nMRVktJ/typescript-1-4.jpg" alt="typescript" style="max-width: 20% height=20%;"/> </a> </p>
+<p align="left"> <a href="https://mochajs.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="40" height="40"/> </a> &ensp; <a href="https://webdriver.io" target="_blank" rel="noreferrer"> <img src="https://i.ibb.co/Ldy6jtx/webdriverio-1-2.jpg" alt="webdriverio" width=40 height=40 /> </a> &ensp; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="/static/img/favicons/learn-js.org.ico" alt="JavaScript" style="max-width: 20% height=20%;"/> </a> </p>
 <br><br>
+
 <h3>************************ Way to run spec ************************</h3>
 
-1. Hit npx wdio run ./wdio.conf.ts (to run all the spec files)
-2. Hit npx wdio run ./wdio.conf.ts --spec filename.ts (to run only particular spec file)
-3. Hit npx wdio run ./wdio.conf.ts --suite suitename (suite should be predefined in wdio.conf.ts under specs)
-4. Hit npx wdio run ./wdio.conf.ts --mochaOpts.grep "test case description" (to run all the test with matching test description)
-5. Hit npx wdio run ./wdio.conf.ts --spec filename.ts --mochaOpts.grep "test case description" (to run particular case in particular spec)
+All file names are located in package.json
+1. To run all test files in the test folder simply paste the command in the terminal: npm run allTests
+2. To run a specific file simply paste the command in the terminal: npm run loginPage  
 
 
 <br>
@@ -24,7 +23,7 @@
 <br><br>
 <h3>************************ Steps to get in local ************************</h3>
 
-1. Clone the repo
+1. Clone the repo by using link: https://github.com/rovshenklichev/rovshenk-coding-exercise click on Code button
 2. Once repo cloned, hit npm install (to install the package.json dependecies)
 
 
