@@ -1,6 +1,6 @@
 <h1 align="center">Rovshen - Automation Engineer Coding Exercise</h1>
 <h2 align="left"><b>Languages and Tools:</b></h2>
-<p align="left"> <a href="https://mochajs.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="40" height="40"/> </a> &ensp; <a href="https://webdriver.io" target="_blank" rel="noreferrer"> <img src="https://i.ibb.co/Ldy6jtx/webdriverio-1-2.jpg" alt="webdriverio" width=40 height=40 /> </a> &ensp; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="/static/img/favicons/learn-js.org.ico" alt="JavaScript" style="max-width: 20%; height: auto;"> </img></a> </p>
+<p align="left"> <a href="https://mochajs.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="40" height="40"/> </a> &ensp; <a href="https://webdriver.io" target="_blank" rel="noreferrer"> <img src="https://i.ibb.co/Ldy6jtx/webdriverio-1-2.jpg" alt="webdriverio" width=40 height=40 /> </a> &ensp; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"></a> </p>
 <br><br>
 
 <h3>************************ Way to run spec ************************</h3>
