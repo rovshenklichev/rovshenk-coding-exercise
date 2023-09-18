@@ -1,24 +1,35 @@
 {
   "name": "rovshenk-coding-exercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!DOCTYPE html> <html> <body>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "wdio": "wdio run ./wdio.conf.js",
-    "allTests": "wdio run ./wdio.conf.js --spec src/test/*.test.js",
-    "loginPage": "wdio run ./wdio.conf.js --spec src/test/loginPage.test.js"
+    "allTests": "wdio run ./wdio.conf.js --spec test/specs/*.test.js",
+    "loginPage": "wdio run ./wdio.conf.js --spec test/specs/loginPage.test.js"
   },
-  "author": "rovshen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rovshenklichev/rovshenk-coding-exercise.git"
+  },
+  "author": "Rovshen Klichev",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rovshenklichev/rovshenk-coding-exercise/issues"
+  },
+  "homepage": "https://github.com/rovshenklichev/rovshenk-coding-exercise#readme",
   "devDependencies": {
-    "@wdio/allure-reporter": "^8.16.7",
-    "@wdio/cli": "^8.16.7",
-    "@wdio/local-runner": "^8.16.7",
-    "@wdio/mocha-framework": "^8.16.7",
-    "@wdio/spec-reporter": "^8.16.7",
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/register": "^7.22.15",
+    "@wdio/cli": "^8.16.10",
+    "@wdio/globals": "^8.16.10",
+    "@wdio/local-runner": "^8.16.10",
+    "@wdio/mocha-framework": "^8.16.10",
+    "@wdio/spec-reporter": "^8.16.9",
     "chai": "^4.3.8",
     "wdio-wait-for": "^3.0.7",
-    "webdriverio": "^8.16.7"
+    "webdriverio": "^8.16.10"
   }
 }
