@@ -21,6 +21,14 @@ class LoginPage extends Page {
         return "//button[@type='submit']";
     }
 
+    get flashAlert () {
+        return "#flash";
+    }
+
+    get loginPageHeader(){
+        return "//h2[contains(text(),'Login Page')]";
+    }
+
     /**
      * overwrite specific options to adapt it to a page object
      */
