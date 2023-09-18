@@ -2,7 +2,7 @@ const LoginPage = require('../pageobjects/login.page')
 const SecurePage = require('../pageobjects/secure.page')
 const {shared} = require("../resources/testdata");
 
-describe("Login Page", () => {
+describe("Login Page - Task 1", () => {
     it("Verify user is able to Login", async () => {
         await LoginPage.open(); // open login page
         // 1) Enter the username and password to log in.
