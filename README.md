@@ -19,12 +19,12 @@
 <br><br>
 
   <h3>************************ Steps to Clone This Project ************************</h3>
-  <p>  Before cloning: a) Make sure you have Node.js v 16.x or higher, b) IDE tools such as VS Code or WebStorm</p>
+  <p>  Before cloning: a) Make sure you have Node.js v 16.x or higher here is the link <a>herf="https://nodejs.org"</a>, b) IDE tools such as VS Code or WebStorm</p>
   <p>1. Open your Terminal</p>
   <p>2. Navigate to the directory where you want to store the cloned repository for example: <code>cd /path/to/your/directory</code></p>
   
   <p>3. Clone the repo by using link: <a href="https://github.com/rovshenklichev/rovshenk-coding-exercise"
-      target="_blank" rel="noreferrer">https://github.com/rovshenklichev/rovshenk-coding-exercise</a> click on Code button and copy for example <code>git clone https://github.com/rovshenklichev/rovshenk-coding-exercise.git</code></p>
+      target="_blank" rel="noreferrer">https://github.com/rovshenklichev/rovshenk-coding-exercise</a> click on Code button and copy for example <code>git clone https://github.com/rovshenklichev/rovshenk-coding-exercise.git</code> paste it to your terminal</p>
   <p>4. After you press Enter wait for the Git process is complete</p>
   <p>5. Now navigate to the cloned repository directory by typing in terminal: <code>cd rovshenk-coding-exercise</code></p>
   <p>5. Once the repo is cloned, hit: <code>npm install</code>  (to install the package.json dependencies)</p>
