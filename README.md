@@ -27,15 +27,15 @@
   <h3>************************ Way to install/update/uninstall dependencies ************************</h3>
   <p>1. Hit npm install dependencyname --save-dev (to save the dependency under dev of package.json)</p>
   <p>2. Hit npm install dependencyname (to install it normally)</p>
-  <p>3. Hit npm update (to update all the dependencies to most compatible version)</p>
+  <p>3. Hit npm update (to update all the dependencies to the most compatible version)</p>
   <p>4. Hit npm update dependencyname (to update a particular dependency to the latest version)</p>
   <p>5. Hit npm uninstall dependencyname</p>
   <br><br>
 
-  <h3>************************ Steps to get in local ************************</h3>
+  <h3>************************ Steps to Clone This Project ************************</h3>
+  <p>Before cloning: 1) Make sure you have Node.js v 16.x or higher, 2) IDE tools such as VS Code or WebStorm</p>
   <p>1. Clone the repo by using link: <a href="https://github.com/rovshenklichev/rovshenk-coding-exercise"
-      target="_blank" rel="noreferrer">https://github.com/rovshenklichev/rovshenk-coding-exercise</a> click on Code button
-  </p>
+      target="_blank" rel="noreferrer">https://github.com/rovshenklichev/rovshenk-coding-exercise</a> click on Code button</p>
   <p>2. Once the repo is cloned, hit npm install (to install the package.json dependencies)</p>
 
   <h3><b>************************* Enjoy 😃😃😃 ************************</b></h3>
