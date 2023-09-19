@@ -2,12 +2,10 @@ const { $ } = require('@wdio/globals')
 const Page = require('./page');
 const {Wait} = require("../utils/constants");
 
-/**
- * subpage containing specific selectors and methods for a specific page
- */
+
 class LoginPage extends Page {
     /**
-     * define selectors using getter methods
+     * Login page selectors using getter methods
      */
     get inputUsername () {
         return "#username";
@@ -30,7 +28,7 @@ class LoginPage extends Page {
     }
 
     /**
-     * overwrite specific options to adapt it to a page object
+     * this method is used to open the login page
      */
     open () {
         return super.open('login');

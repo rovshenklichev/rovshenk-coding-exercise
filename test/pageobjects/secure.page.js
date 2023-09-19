@@ -1,4 +1,4 @@
-const { $} = require('@wdio/globals')
+const { $} = require('@wdio/globals');
 const Page = require('./page');
 const {Wait} = require("../utils/constants");
 const { expect } = require('chai');

@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "wdio": "wdio run ./wdio.conf.js",
     "allTests": "wdio run ./wdio.conf.js --spec test/specs/*.test.js",
-    "loginPage": "wdio run ./wdio.conf.js --spec test/specs/loginPage.test.js"
+    "loginPage": "wdio run ./wdio.conf.js --spec test/specs/loginPage.test.js",
+    "tablesPage": "wdio run ./wdio.conf.js --spec test/specs/tablesPage.test.js"
   },
   "repository": {
     "type": "git",
