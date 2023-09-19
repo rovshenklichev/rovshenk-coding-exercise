@@ -19,29 +19,31 @@
 <br><br>
 
   <h3>************************ Steps to Clone This Project ************************</h3>
-  <p>  Before cloning: 1) Make sure you have Node.js v 16.x or higher, 2) IDE tools such as VS Code or WebStorm</p>
+  <p>  Before cloning: a) Make sure you have Node.js v 16.x or higher, b) IDE tools such as VS Code or WebStorm</p>
   <p>1. Open your Terminal</p>
-  <p>2. Navigate to the directory where you want to store the cloned repository for example: cd /path/to/your/directory</p>
+  <p>2. Navigate to the directory where you want to store the cloned repository for example: <code>cd /path/to/your/directory</code></p>
   
   <p>3. Clone the repo by using link: <a href="https://github.com/rovshenklichev/rovshenk-coding-exercise"
-      target="_blank" rel="noreferrer">https://github.com/rovshenklichev/rovshenk-coding-exercise</a> click on Code button for example: git clone https://github.com/rovshenklichev/rovshenk-coding-exercise.git</p>
+      target="_blank" rel="noreferrer">https://github.com/rovshenklichev/rovshenk-coding-exercise</a> click on Code button and copy for example <code>git clone https://github.com/rovshenklichev/rovshenk-coding-exercise.git</code></p>
   <p>4. After you press Enter wait for the Git process is complete</p>
-  <p>5. Now navigate to the cloned repository directory by typing in terminal: cd rovshenk-coding-exercise</p>
-  <p>5. Once the repo is cloned, hit: npm install  (to install the package.json dependencies)</p>
+  <p>5. Now navigate to the cloned repository directory by typing in terminal: <code>cd rovshenk-coding-exercise</code></p>
+  <p>5. Once the repo is cloned, hit: <code>npm install</code>  (to install the package.json dependencies)</p>
   <br>
 
   <h3>********************* Way to install/update/uninstall dependencies *********************</h3>
-  <p>1. Hit npm install dependencyname --save-dev (to save the dependency under dev of package.json)</p>
-  <p>2. Hit npm install dependencyname (to install it normally)</p>
-  <p>3. Hit npm update (to update all the dependencies to the most compatible version)</p>
-  <p>4. Hit npm update dependencyname (to update a particular dependency to the latest version)</p>
-  <p>5. Hit npm uninstall dependencyname</p>
+  <p>1. Hit <code>npm install dependencyname --save-dev</code> (to save the dependency under dev of package.json)</p>
+  <p>2. Hit <code>npm install dependencyname</code> (to install it normally)</p>
+  <p>3. Hit <code>npm update</code> (to update all the dependencies to the most compatible version)</p>
+  <p>4. Hit <code>npm update dependencyname</code> (to update a particular dependency to the latest version)</p>
+  <p>5. Hit <code>npm uninstall dependencyname</code></p>
   <br><br>
 
   <h3>************************ Way to run spec ************************</h3>
-  <p>All file names are located in package.json</p>
-  <p>1. To run all test files in the test folder simply paste the command in the terminal: npm run allTests</p>
-  <p>2. To run a specific file simply paste the command in the terminal: npm run loginPage</p>
+  <p>All file names are located in package.json file</p>
+  <p>1. To run all test files in the test folder simply paste the command in the terminal: <code>npm run allTests</code></p>
+  <p>2. To run a specific file simply paste the command in the terminal: <code>npm run loginPage</code></p>
+  <p>3. To run Task 4 you can simply paste in the terminal: <code>npm run checkboxTest</code> or <code>node test/utils/my_script_2.js checkboxTest</code></p>
+  <p>4. To run Task 5 you can simply paste in project directory terminal: <code>npm run dropdownTest</code> or <code>node test/utils/my_script_2.js dropdownTest</code></p>
   <br>
   
   <h3><b>************************* Enjoy 😃😃😃 ************************</b></h3>
