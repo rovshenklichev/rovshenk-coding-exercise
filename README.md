@@ -30,7 +30,7 @@
   <p>5. Once the repo is cloned, hit: npm install  (to install the package.json dependencies)</p>
   <br>
 
-  <h3>************************ Way to install/update/uninstall dependencies ************************</h3>
+  <h3>********************* Way to install/update/uninstall dependencies *********************</h3>
   <p>1. Hit npm install dependencyname --save-dev (to save the dependency under dev of package.json)</p>
   <p>2. Hit npm install dependencyname (to install it normally)</p>
   <p>3. Hit npm update (to update all the dependencies to the most compatible version)</p>
