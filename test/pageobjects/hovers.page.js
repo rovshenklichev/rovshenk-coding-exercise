@@ -22,17 +22,28 @@ class HoversPage extends Page{
         return "//h5[contains(text(), 'name: user')]";
     }
 
+    /**
+     * Opens the hovers page.
+     */
     open() {
         return super.open('hovers');
     }
 
+    /**
+     * Verifies the hovers page header.
+     * @param {string} hoversPageHeaderTxt The expected header text.
+     */
     async verifyHoversPageHeader(hoversPageHeaderTxt){
         await $(this.hoversPageHeader).waitForDisplayed({timeout: Wait.LOW_WAIT});
         const hoversPageHeaderElementTxt = await $(this.hoversPageHeader).getText();
         expect(hoversPageHeaderElementTxt).to.equal(hoversPageHeaderTxt);
     }
 
-    async navigateToUserProfile(userIndex, ) {
+    /**
+     * Navigate to the user profile page for the given user index number.
+     * @param {number} userIndex The index of the user to navigate to.
+     */
+    async navigateToUserProfile(userIndex) {
         const userFigures = await $$(this.listOfFigures);
         await $$(this.listOfFigures)[0].waitForDisplayed({ timeout: Wait.LOW_WAIT });
 

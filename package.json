@@ -9,7 +9,8 @@
     "allTests": "wdio run ./wdio.conf.js --spec test/specs/*.test.js",
     "loginPage": "wdio run ./wdio.conf.js --spec test/specs/loginPage.test.js",
     "tablesPage": "wdio run ./wdio.conf.js --spec test/specs/tablesPage.test.js",
-    "hoverPage": "wdio run ./wdio.conf.js --spec test/specs/hovers.test.js"
+    "hoverPage": "wdio run ./wdio.conf.js --spec test/specs/hoversPage.test.js",
+    "checkboxesPage": "wdio run ./wdio.conf.js --spec test/specs/checkboxesPage.test.js"
   },
   "repository": {
     "type": "git",
