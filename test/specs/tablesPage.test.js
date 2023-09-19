@@ -4,6 +4,13 @@ const { expect } = require('chai');
 
 describe("Tables Page - Task 2 - Sortable Tables", () => {
 
+    it("Verify user landed on Tables page", async () => {
+        await TablesPage.open();
+        await TablesPage.verifyTablesPageHeader(shared.tablesPageHeader);
+        const currentUrl = await browser.getUrl();
+        expect(currentUrl).to.include("tables");
+    });
+
     it("Verify that the table contains the expected headers", async () => {
         await TablesPage.open();
         const listOfTableHeaders = TablesPage.listOfTable1Headers; // Replace with your element selector

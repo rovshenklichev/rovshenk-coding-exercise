@@ -42,6 +42,12 @@ const declareData = {
         countOfTable1Headers: 6,
         firstRowNumber: 0,
         firstRowData: "Smith John jsmith@gmail.com $50.00",
+
+        // Hovers Page
+        hoversPageHeader: "Hovers",
+        userName1: "user1",
+        userName2: "user2",
+        userName3: "user3",
     }
 };
 

@@ -8,7 +8,8 @@
     "wdio": "wdio run ./wdio.conf.js",
     "allTests": "wdio run ./wdio.conf.js --spec test/specs/*.test.js",
     "loginPage": "wdio run ./wdio.conf.js --spec test/specs/loginPage.test.js",
-    "tablesPage": "wdio run ./wdio.conf.js --spec test/specs/tablesPage.test.js"
+    "tablesPage": "wdio run ./wdio.conf.js --spec test/specs/tablesPage.test.js",
+    "hoverPage": "wdio run ./wdio.conf.js --spec test/specs/hovers.test.js"
   },
   "repository": {
     "type": "git",

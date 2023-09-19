@@ -60,6 +60,12 @@ class TablesPage extends Page{
         return super.open('tables');
     }
 
+    async verifyTablesPageHeader(tablesPageHeaderTxt){
+        await $(this.tablesPageHeader).waitForDisplayed({timeout: Wait.LOW_WAIT});
+        const headerText = await $(this.tablesPageHeader).getText();
+        expect(headerText).to.equal(tablesPageHeaderTxt);
+    }
+
     /**
      * This method is used to verify the table contains the expected headers
      * @param countOfTable1Headers
