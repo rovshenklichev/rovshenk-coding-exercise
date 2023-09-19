@@ -10,7 +10,8 @@
     "loginPage": "wdio run ./wdio.conf.js --spec test/specs/loginPage.test.js",
     "tablesPage": "wdio run ./wdio.conf.js --spec test/specs/tablesPage.test.js",
     "hoverPage": "wdio run ./wdio.conf.js --spec test/specs/hoversPage.test.js",
-    "checkboxesPage": "wdio run ./wdio.conf.js --spec test/specs/checkboxesPage.test.js"
+    "checkboxesPage": "wdio run ./wdio.conf.js --spec test/specs/checkboxesPage.test.js",
+    "dropdownPage": "wdio run ./wdio.conf.js --spec test/specs/dropdownPage.test.js"
   },
   "repository": {
     "type": "git",

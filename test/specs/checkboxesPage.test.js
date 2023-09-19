@@ -5,8 +5,6 @@ describe("Checkbox Page - Task 4 - Checkboxes", () => {
     it("Verify method should click each checkbox at least 1-10 times", async () => {
         try {
         await CheckboxesPage.open();
-        await browser.maximizeWindow();
-        await expect(browser).toHaveTitle('The Internet');
         await expect(browser).toHaveUrl(shared.mainURL+"checkboxes");
         await CheckboxesPage.checkboxesClick();
         } catch (error) {
