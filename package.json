@@ -11,7 +11,9 @@
     "tablesPage": "wdio run ./wdio.conf.js --spec test/specs/tablesPage.test.js",
     "hoverPage": "wdio run ./wdio.conf.js --spec test/specs/hoversPage.test.js",
     "checkboxesPage": "wdio run ./wdio.conf.js --spec test/specs/checkboxesPage.test.js",
-    "dropdownPage": "wdio run ./wdio.conf.js --spec test/specs/dropdownPage.test.js"
+    "dropdownPage": "wdio run ./wdio.conf.js --spec test/specs/dropdownPage.test.js",
+    "checkboxTest": "node test/utils/my_script_2.js checkboxTest",
+    "dropdownTest": "node test/utils/my_script_2.js dropdownTest"
   },
   "repository": {
     "type": "git",
