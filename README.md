@@ -20,7 +20,7 @@
 
   <h3>************************ Steps to Clone This Project ************************</h3>
   
-  <p>  Before cloning: a) Make sure you have Node.js v 16.x or higher <a herf="https://nodejs.org"></a>, b) IDE tools such as VS Code or WebStorm</p>
+  <p>  Before cloning: a) Make sure you have Node.js v 16.x or higher <a herf="https://nodejs.org"target="_blank" rel="noreferrer">https://nodejs.org</a>, b) IDE tools such as VS Code or WebStorm</p>
   <p>1. Open your Terminal</p>
   <p>2. Navigate to the directory where you want to store the cloned repository for example: <code>cd /path/to/your/directory</code></p>
   
