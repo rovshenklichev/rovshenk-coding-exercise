@@ -41,10 +41,10 @@
 
   <h3>************************ Way to run spec ************************</h3>
   <p>All file names are located in package.json file</p>
-  <p>1. To run all test files in the test folder simply paste the command in the terminal: <code>npm run allTests</code></p>
-  <p>2. To run a specific file simply paste the command in the terminal: <code>npm run loginPage</code></p>
+  <p>1. To run all test files in the test folder simply paste the command in the project directory terminal: <code>npm run allTests</code></p>
+  <p>2. To run specific test files for Task 1 - 3 simply paste the command in the project directory terminal: <code>npm run loginPage</code>, and <code>npm run tablesPage</code>, and <code>npm run hoverPage</code></p>
   <p>3. To run Task 4 you can simply paste in the terminal: <code>npm run checkboxTest</code> or <code>node test/utils/my_script_2.js checkboxTest</code></p>
-  <p>4. To run Task 5 you can simply paste in project directory terminal: <code>npm run dropdownTest</code> or <code>node test/utils/my_script_2.js dropdownTest</code></p>
+  <p>4. To run Task 5 you can simply paste in the project directory terminal: <code>npm run dropdownTest</code> or <code>node test/utils/my_script_2.js dropdownTest</code></p>
   <br>
   
   <h3><b>************************* Enjoy 😃😃😃 ************************</b></h3>
